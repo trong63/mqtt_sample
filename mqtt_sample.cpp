@@ -77,8 +77,6 @@ void mqtt_sample::on_message(const struct mosquitto_message *message)
 	//BT - Echo data back to mDot
 	publish(NULL, topic.c_str(), strlen(payload_send.toStyledString().c_str()), payload_send.toStyledString().c_str());
 
-	//BT - Clear the vector to prevent growing.
-	data.clear();
 
 }
 
