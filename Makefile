@@ -21,7 +21,7 @@ SOURCE_FILES= mqtt_sample.cpp mqtt_sample.h main.cpp
 all: mqtt_sample
 
 mqtt_sample: $(SOURCE_FILES)
-	$(CXX) $(AM_CPPFLAGS) $(INC)  -o $@ $^ -L $(LIBDIR) -lmosquittopp -ljsoncpp
+	$(CXX) $(CXXFLAGS) $(INC)  -o $@ $^ -L $(LIBDIR) -lmosquittopp -ljsoncpp
 
 
 clean:
