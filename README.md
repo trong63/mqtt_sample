@@ -3,9 +3,9 @@ This is a mqtt sample client that will talk to the MQTT server on the Conduit an
 
 Installation instruction:
 
-1. Ubuntu 14.4 LTS - 64 bit.
+1. Ubuntu 14.04 LTS - 64 bit.
 
-2. Download and install Multitech mlinux-c-toolchain at the following link:
+2. Download and install Multitech mlinux-C/C++-toolchain on your Ubuntu 14.04 LTS - 64 bit machine at the following link:
 
    wget ftp://ftp.multitech.com/engineering/junk/4.0.1-toolchain/mlinux-glibc-x86_64-mlinux-factory-image-arm926ejste-toolchain-4.0.1.sh
 
@@ -15,7 +15,7 @@ Installation instruction:
 
 3. It is recommended to accept the default settings when run the command above.
 
-4. git clone https://github.com/trong63/mqtt_sample.git
+4. git clone https://github.com/trong63/mqtt_sample.git <--Clone the project.
 
 5. make <--Build the project.
 
