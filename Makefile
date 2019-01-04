@@ -10,12 +10,6 @@ export CFLAGS += -DEMBED -D__UCLINUX__
 
 export CXXFLAGS += -std=c++0x -DDEBUG
 
-########################################################################################
-#  $(CC) - gcc
-#  $(CXX) - g++
-#BT - $(CXX) $(CXXFLAGS) $(INC)  -o $@ $^ -L $(LIBDIR) -lmosquittopp -ljsoncpp
-########################################################################################
-
 SOURCE_FILES= mqtt_sample.cpp mqtt_sample.h main.cpp
 
 all: mqtt_sample
