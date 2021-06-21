@@ -21,7 +21,9 @@ Installation instruction:
 
 6. scp the mqtt_sample to Conduit.
 
-7. ./mqtt_sample <--Run it on the Conduit
+7. chmod +x mqtt_sample
+
+8. ./mqtt_sample <--Run it on the Conduit
 
 Notes: The source code were taken and modified from the mosquitto-1.4/examples/temperature_conversion.
        
