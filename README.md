@@ -3,15 +3,15 @@ This is a mqtt sample client that will talk to the MQTT server on the Conduit an
 
 Installation instruction:
 
-1. Ubuntu 14.04 LTS - 64 bit.
+1. Ubuntu 16.4.7 LTS - 64 bit.
 
-2. Download and install Multitech mlinux-C/C++-toolchain on your Ubuntu 14.04 LTS - 64 bit machine at the following link:
+2. Download and install Multitech mlinux-C/C++-toolchain on your Ubuntu 16.4.7 LTS - 64 bit machine at the following link:
 
-   wget ftp://ftp.multitech.com/engineering/junk/4.0.1-toolchain/mlinux-glibc-x86_64-mlinux-factory-image-arm926ejste-toolchain-4.0.1.sh
+   http://www.multitech.net/mlinux/sdk/5.2.7/
 
-   chmod +x mlinux-glibc-x86_64-mlinux-factory-image-arm926ejste-toolchain-4.0.1.sh
+   chmod +x mlinux-glibc-x86_64-mlinux-sdk-arm926ejste-toolchain-5.2.7.sh
 
-   ./mlinux-glibc-x86_64-mlinux-factory-image-arm926ejste-toolchain-4.0.1.sh <--Run install.
+   ./mlinux-glibc-x86_64-mlinux-sdk-arm926ejste-toolchain-5.2.7.sh <--Run install.
 
 3. It is recommended to accept the default settings when run the command above.
 

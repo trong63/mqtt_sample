@@ -1,10 +1,10 @@
 #BT - You just need to update these path.
 
-MLINUX_4.0.1 = /opt/mlinux/4.0.1/sysroots
+MLINUX_5.2.7 = /opt/mlinux/5.2.7/sysroots
 
-LIBDIR = $(MLINUX_4.0.1)/arm926ejste-mlinux-linux-gnueabi/usr/lib
+LIBDIR = $(MLINUX_5.2.7)/arm926ejste-mlinux-linux-gnueabi/usr/lib
 
-INC = -I$(MLINUX_4.0.1)/arm926ejste-mlinux-linux-gnueabi/usr/include/jsoncpp
+INC = -I$(MLINUX_5.2.7)/arm926ejste-mlinux-linux-gnueabi/usr/include/jsoncpp -I$(MLINUX_5.2.7)/arm926ejste-mlinux-linux-gnueabi/usr/include/
 
 export CFLAGS += -DEMBED -D__UCLINUX__
 
