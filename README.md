@@ -13,7 +13,7 @@ Installation instruction:
 
    ./mlinux-glibc-x86_64-mlinux-sdk-arm926ejste-toolchain-6.3.0.sh <--Run install.
 
-   . /usr/local/oecore-x86_64/environment-setup-arm926ejste-mlinux-linux-gnueabi
+   . /usr/local/oecore-x86_64/environment-setup-arm926ejste-mlinux-linux-gnueabi <--Run the environment setup
 
 3. It is recommended to accept the default settings when run the command above.
 
