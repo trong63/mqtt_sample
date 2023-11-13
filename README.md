@@ -7,11 +7,13 @@ Installation instruction:
 
 2. Download and install Multitech mlinux-C/C++-toolchain on your Ubuntu 16.4.7 LTS - 64 bit machine at the following link:
 
-   http://www.multitech.net/mlinux/sdk/5.2.7/
+   http://www.multitech.net/mlinux/sdk/6.3.0/
 
-   chmod +x mlinux-glibc-x86_64-mlinux-sdk-arm926ejste-toolchain-5.2.7.sh
+   chmod +x mlinux-glibc-x86_64-mlinux-sdk-arm926ejste-toolchain-6.3.0.sh
 
-   ./mlinux-glibc-x86_64-mlinux-sdk-arm926ejste-toolchain-5.2.7.sh <--Run install.
+   ./mlinux-glibc-x86_64-mlinux-sdk-arm926ejste-toolchain-6.3.0.sh <--Run install.
+
+   . /usr/local/oecore-x86_64/environment-setup-arm926ejste-mlinux-linux-gnueabi
 
 3. It is recommended to accept the default settings when run the command above.
 

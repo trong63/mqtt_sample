@@ -1,10 +1,11 @@
 #BT - You just need to update these path.
+#/usr/local/oecore-x86_64
 
-MLINUX_5.2.7 = /opt/mlinux/5.2.7/sysroots
+MLINUX_6.3.0 = /usr/local/oecore-x86_64/sysroots
 
-LIBDIR = $(MLINUX_5.2.7)/arm926ejste-mlinux-linux-gnueabi/usr/lib
+LIBDIR = $(MLINUX_6.3.0)/arm926ejste-mlinux-linux-gnueabi/usr/lib
 
-INC = -I$(MLINUX_5.2.7)/arm926ejste-mlinux-linux-gnueabi/usr/include/jsoncpp -I$(MLINUX_5.2.7)/arm926ejste-mlinux-linux-gnueabi/usr/include/
+INC = -I$(MLINUX_6.3.0)/arm926ejste-mlinux-linux-gnueabi/usr/include/jsoncpp -I$(MLINUX_6.3.0)/arm926ejste-mlinux-linux-gnueabi/usr/include/
 
 export CFLAGS += -DEMBED -D__UCLINUX__
 
